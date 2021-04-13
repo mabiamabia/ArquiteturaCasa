@@ -26,8 +26,24 @@ footer {
     background-color: #333;
     color: #ffffff;
     padding: 20px;
+    margin-top: 10px;
 }
 
 footer address:last-child {
     margin-bottom: 0;
+}
+
+@media(min-with: 768px) {
+    .thumbnail projetos-responsivo {
+        width: 50%;
+        float: left;
+    }
+}
+
+.topCasaFina-banner {
+    color: #ffffff;
+    background-color: #312f2f;
+    padding: 20px;
+    width: 80%;
+    border-radius: 8px;
 }
